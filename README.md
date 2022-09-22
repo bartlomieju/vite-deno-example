@@ -1,4 +1,4 @@
-You can see live site at: vite-deno-example.deno.dev
+You can see live site at: https://vite-deno-example.deno.dev
 
 # Vite + Deno
 
