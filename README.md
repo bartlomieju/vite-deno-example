@@ -1,3 +1,5 @@
+You can see live site at: vite-deno-example.deno.dev
+
 # Vite + Deno
 
 This is an example repo of running Vite with Deno.
@@ -12,6 +14,8 @@ Currently this repository depends on https://github.com/denoland/deno/pull/15971
 ```
 $ deno task dev
 ```
+
+// TODO: add build step with Deno Deploy
 
 ## Papercuts
 
