@@ -14,7 +14,7 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v3
 
-      - name: Cache Primes
+      - name: Cache node_modules/
         id: cache-node-modules
         uses: actions/cache@v3
         with:
