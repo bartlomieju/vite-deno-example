@@ -34,7 +34,8 @@ jobs:
           deno-version: v1.x
 
       - name: Build production
-        env: DENO_DIR=.deno
+        env: 
+          DENO_DIR: .deno
         run: deno task build
         
       - name: Deploy to Deno Deploy
