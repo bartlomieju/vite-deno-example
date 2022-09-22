@@ -26,4 +26,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: vite-deno-example
+          root: dist
           entrypoint: https://deno.land/std@0.157.0/http/file_server.ts
