@@ -31,10 +31,13 @@ $ deno task serve
 
 // TODO: add build step with Deno Deploy
 
+## Notes
+
+- You need to use `.mjs` or `.mts` extension for the `vite.config.[ext]` file.
+
 ## Papercuts
 
 Currently there are two "papercuts" for Deno users:
 
 - peer dependencies need to be referenced in `vite.config.js` - in this example
   it is only `vue` package that needs to be referenced
-- `package.json` is still required because of CommonJS resolution
