@@ -1,18 +1,32 @@
-You can see live site at: https://vite-deno-example.deno.dev
-
 # Vite + Deno
 
 This is an example repo of running Vite with Deno.
 
-This is based on `vue` template for Vite:
+You can see live site at: https://vite-deno-example.deno.dev
+
+This repo is based on `vue` template for Vite:
 https://stackblitz.com/edit/vitejs-vite-ifm7jc?file=index.html&terminal=dev
 
 ## Running
 
-Currently this repository depends on https://github.com/denoland/deno/pull/15971
+You need to have Deno v1.25.4 or later intalled to run this repo.
+
+Start a dev server:
 
 ```
 $ deno task dev
+```
+
+Build production assets:
+
+```
+$ deno task dev
+```
+
+Start a production server: _(requires build first)_
+
+```
+$ deno task serve
 ```
 
 // TODO: add build step with Deno Deploy
