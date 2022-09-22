@@ -14,6 +14,13 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v3
 
+      - name: Cache .deno/
+        id: cache-deno
+        uses: actions/cache@v3
+        with:
+          path: .deno/
+          key: ${{ runner.os }}-deno
+      
       - name: Cache node_modules/
         id: cache-node-modules
         uses: actions/cache@v3
@@ -27,6 +34,7 @@ jobs:
           deno-version: v1.x
 
       - name: Build production
+        env: DENO_DIR=.deno
         run: deno task build
         
       - name: Deploy to Deno Deploy
