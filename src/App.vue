@@ -8,7 +8,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <div>
     <img src="/vite-deno.svg" alt="Vite with Deno" />
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld msg="Vite + Vue + Deno" />
 </template>
 
 <style scoped>
