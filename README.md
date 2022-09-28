@@ -1,5 +1,7 @@
 # Vite + Deno
 
+<img src="./public/vite-deno.svg" title="Vite + Vue + Deno"/>
+
 This is an example repo of running Vite with Deno.
 
 You can see live site at: https://vite-deno-example.deno.dev
