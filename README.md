@@ -4,8 +4,11 @@ This is an example repo of running Vite with Deno.
 
 You can see live site at: https://vite-deno-example.deno.dev
 
-This repo is based on `vue` template for Vite:
-https://stackblitz.com/edit/vitejs-vite-ifm7jc?file=index.html&terminal=dev
+This repo is based on a `deno-vue` template from `create-vite-extra`:
+
+```
+$ deno run -A --unstable npm:create-vite-extra --template deno-vue
+```
 
 ## Notes
 
