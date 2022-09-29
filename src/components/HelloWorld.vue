@@ -31,10 +31,18 @@ const count = ref(0)
     in your IDE for a better DX
   </p>
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+  <a class="source" href="https://github.com/bartlomieju/vite-deno-example"><img src="/brand-github.svg" />Source</a>
 </template>
 
 <style scoped>
 .read-the-docs {
   color: #888;
+}
+.source {
+  margin-top: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1em;
 }
 </style>
