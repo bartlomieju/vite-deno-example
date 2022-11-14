@@ -9,7 +9,7 @@ You can see live site at: https://vite-deno-example.deno.dev
 This repo is based on a `deno-vue` template from `create-vite-extra`:
 
 ```
-$ deno run -A --unstable npm:create-vite-extra --template deno-vue
+$ deno run -A npm:create-vite-extra --template deno-vue
 ```
 
 ## Notes
@@ -25,7 +25,7 @@ Currently there's a "papercut" for Deno users:
 
 ## Running
 
-You need to have Deno v1.25.4 or later intalled to run this repo.
+You need to have Deno v1.28 or later intalled to run this repo.
 
 Start a dev server:
 
