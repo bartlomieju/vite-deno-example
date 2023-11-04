@@ -25,7 +25,7 @@ Currently there's a "papercut" for Deno users:
 
 ## Running
 
-You need to have Deno v1.28 or later intalled to run this repo.
+You need to have Deno v1.28 or later installed to run this repo.
 
 Start a dev server:
 
